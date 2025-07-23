@@ -1,6 +1,6 @@
 body{
 max-width: 60%;
-margin: 0 auto;
+margin: 30px auto 30px;
 background-color: #E5E5E5;
 }
 
@@ -31,6 +31,6 @@ button{
     margin-bottom: 70px;
 
 }
-.nav-list, .nav-item-list{
+.nav-list, .nav-item-list, .lionic-logo{
     display: flex;
 }
