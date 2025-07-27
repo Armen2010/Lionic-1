@@ -69,3 +69,26 @@ button{
   text-decoration: none;
 }
 
+.img-home {
+position: relative;
+}
+
+.item-home{
+position: absolute;
+z-index: 2;
+padding: 50px 45px;
+}
+
+.article-home{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.special-offer-list-item{
+    color: #1C1C1C;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+
