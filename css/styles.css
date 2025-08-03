@@ -77,6 +77,7 @@ position: relative;
 position: absolute;
 z-index: 2;
 padding: 50px 45px;
+
 }
 
 .article-home{
@@ -89,15 +90,10 @@ padding: 50px 45px;
     color: #1C1C1C;
     font-size: 40px;
     font-weight: 600;
-    max-width: 25%;
+   
 }
 
 
-.services{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 .special-offer{
     display: inline-block;
@@ -116,4 +112,37 @@ padding: 50px 45px;
     border-radius: 2px;
     height: 50px;
     width: 200px;
+}
+
+
+.services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      top: 261px;
+    bottom: 10px
+}
+
+.special {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+}
+
+.services1 h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.services2 p {
+    font-size: 16px;
+    max-width: 400px;
+}
+
+.special-offer-img{
+    position: relative;
+}
+
+.special-offer-div{
+    position: absolute;
 }
