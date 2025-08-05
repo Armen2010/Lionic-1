@@ -168,27 +168,6 @@ padding: 50px 45px;
     display: inline-block;
 }
 
-/* .content-li-home{
-    display: flex;
-    flex-direction: column; 
-    align-items: flex-start; 
-
-.content-div{
-    display: flex;
-}
-
-.content-li-home{
-    width: 362px;
-    height: 370px;
-    margin: 10px;
-    border: 1px solid #787878;
-    padding: 25px 42px;
-}
-
-.content{
-    display: flex;
-}
- */
 .content-li-home {
   display: flex;
   flex-direction: column;
@@ -199,6 +178,9 @@ padding: 50px 45px;
   border: 1px solid #787878;
   padding: 25px 42px;
   list-style: none;
+  flex: 1; /* կամ fixed լայնություն, օրինակ width: 300px; */
+  /* padding: 15px; */
+  box-sizing: border-box;
 }
 
 .content-div {
@@ -228,4 +210,47 @@ padding: 50px 45px;
 .content-text{
     color: #787878;
     max-width: 281px;
+}
+
+.content-ul{
+  display: flex;
+  gap: 20px; 
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.content-li-home {
+  flex: 1; 
+  border: 1px solid #ddd;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.content-title-home{
+  font-size: 30px;
+  font-weight: 200;
+}
+
+.section-ul{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+}
+
+.section-li {
+  flex: 1;
+  min-width: 250px; 
+  padding: 15px;
+}
+
+.section-text{
+   color: #787878;
+}
+.section-title-home{
+  font-weight: 200;
 }
