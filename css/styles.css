@@ -308,6 +308,13 @@ padding: 50px 45px;
 
    .submit {
     grid-area: submit;
+    background-color: #3172B9;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
   }
 
   .join-heading{
@@ -317,4 +324,46 @@ padding: 50px 45px;
   .join-description{
     display: flex;
     justify-content: center;
+    color: #787878;
   }
+
+.join-section{
+  border: 1px solid #787878;
+  padding: 87px 100px;
+}
+
+.join-a{
+  color: #3172B9;
+}
+
+label {
+  color: #787878;
+}
+
+.footer{
+  border: 1px solid #787878;
+  padding: 24px 100px;
+  margin-bottom: -30px;
+  margin-top: 10px;
+}
+
+.footer-ul{
+  display: flex;
+  justify-content: center;
+   align-items: center;
+   max-width: 100%;
+}
+
+.footer-li{
+ margin-left: 20px;
+ font-size: 15px;
+ color: #787878;
+}
+
+.copyright{
+  color: #787878;
+  margin-left: 20px;
+  margin-right: 105px;
+  font-size: 12px;
+
+}
