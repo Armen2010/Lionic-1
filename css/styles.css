@@ -254,3 +254,67 @@ padding: 50px 45px;
 .section-title-home{
   font-weight: 200;
 }
+
+ .join-form {
+    display: grid;
+    gap: var(--spacing-md);
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-areas:
+      "name   email   comment"
+      "phone  country comment"
+      "null null submit"
+      "null null checkbox";
+    margin: 0 auto;
+  }
+  
+  .name {
+    grid-area: name;
+    border-radius: 20px ;
+    padding: 15px;
+  }
+  
+  .email {
+    grid-area: email;
+    border-radius: 20px ;
+    padding: 15px;
+  }
+  
+  .phone {
+    grid-area: phone;
+    border-radius: 20px ;
+    padding: 15px;
+  }
+  
+  .country {
+    grid-area: country;
+    border-radius: 20px ;
+    padding: 15px;
+  }
+  
+  .comment {
+    grid-area: comment;
+    resize: none;
+    border-radius: 10px ;
+    padding: 15px
+  }
+  
+  .checkbox {
+    grid-area: checkbox;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+  }
+
+   .submit {
+    grid-area: submit;
+  }
+
+  .join-heading{
+    display: flex;
+    justify-content: center;
+  }
+  .join-description{
+    display: flex;
+    justify-content: center;
+  }

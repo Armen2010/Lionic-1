@@ -5,6 +5,7 @@
         <title>
             Lionic home
         </title>
+        <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
@@ -210,18 +211,34 @@
                     </ul>
                 </div>
             </section>
-            <section id="join" class="section-content"><h2>Join us</h2>
-               <p>
-                 Take control of your paid subscriptions today!
-               </p>
-               <img src="images/nkar16.svg" alt="Name">
-               <img src="images/nkar17.svg" alt="Phone">
-               <img src="images/nkar19.svg" alt="Conutray">
-               <img src="images/nkar21.svg" alt="mmmm">
-               <img src="images/nkar18.svg" alt="E-mail">
-               <img src="images/nkar20.svg" alt="Comment"> 
-               <img src="images/nkar22.svg" alt="GET STARTER">
-               <p>agree with the user agreement</p> <img src="images/nkar23.svg" alt="aa">
+            <section id="join" class="join-section" aria-labelledby="join-heading">
+               <h2 id="join-heading" class="join-heading">Join us</h2>
+               <p class="join-description">Take control of your paid subscriptions today!</p>
+                <form class="join-form" action="#" method="POST">
+                    <!-- <label for="name" class="visually-hidden">Name</label> -->
+                    <input type="text" id="name" name="name" placeholder="Name" required class="name" />
+                    <!-- <label for="email" class="visually-hidden">Email</label> -->
+                    <input type="email" id="email" name="email" placeholder="Email" required class="email" />
+                    <!-- <label for="phone" class="visually-hidden">Phone</label> -->
+                    <input type="tel" id="phone" name="phone" placeholder="Phone" required class="phone" />
+                    <!-- <label for="country" class="visually-hidden"> Country </label> -->
+                    <select id="country" name="country" required class="country">
+                        <option value="" selected hidden>Country</option>
+                        <option value="uk">United Kingdom</option>
+                        <option value="us">United States</option>
+                        <option value="fr">France</option>
+                        <option value="de">Germany</option>
+                        <option value="es">Spain</option>
+                        <option value="ee">Estonia</option>
+                    </select>
+                    <!-- <label for="comment" class="visually-hidden">Comment</label> -->
+                    <textarea id="comment" name="comment" placeholder="Comment" rows="4" class="comment"></textarea>
+                    <button type="submit" class="button button-primary submit" >Get Started</button>
+                    <p class="terms-agree checkbox">
+                        <input type="checkbox" id="agree" name="agree" required />
+                        <label for="agree">I agree with <a href="#">user agreement</a></label>
+                    </p>
+                </form>
             </section>
         </main>
         <footer>
