@@ -328,7 +328,6 @@ padding: 50px 45px;
   }
 
 .join-section{
-  border: 1px solid #787878;
   padding: 87px 100px;
 }
 
@@ -365,5 +364,8 @@ label {
   margin-left: 20px;
   margin-right: 105px;
   font-size: 12px;
+}
 
+.gic{
+  margin: 100px 87px;
 }
