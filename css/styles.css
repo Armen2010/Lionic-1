@@ -340,7 +340,6 @@ label {
 }
 
 .footer{
-  border: 1px solid #787878;
   padding: 24px 100px;
   margin-bottom: -30px;
   margin-top: 10px;
@@ -369,3 +368,24 @@ label {
 .gic{
   margin: 100px 87px;
 }
+
+.footer-gic{
+  margin: 50px 0px;
+}
+
+.nav-list-item a:hover{
+  color: #71A7E2;
+  border: 1px solid #71A7E2;
+}
+
+.link-list:hover{
+  background-color: #71A7E2;
+  border: 1px solid #3172B9;
+  border-radius: 1px;
+}
+
+.special-offer:hover{
+  background-color: #3172B9;
+  color: #fff;
+}
+
