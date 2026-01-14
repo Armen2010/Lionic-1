@@ -1,193 +1,288 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <title>
             Lionic home
         </title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
-        <header>
-            <section>
-               <img src="images/logo.svg">
-               
+        <header class="main-header">
+            <section class="brand-view">
+               <!-- <img src="images/logo.svg" alt="Lionic logo"> -->
+                <nav class="nav-list">
+                    <ul class="nav-item-list">
+                        <li class="nav-list-item"><img src="images/logo.svg" alt="Lionic logo"></li>
+                        <li class="nav-list-item"><a href="#home">Home</a></li>
+                        <li class="nav-list-item"><a href="#services">Services</a></li>
+                        <li class="nav-list-item"><a href="#articles">Articles</a></li>
+                        <li class="nav-list-item"><a href="#clients">Clients</a></li>
+                        <li class="nav-list-item"><a href="#contacts">Contacts</a></li>
+                        <li class="nav-list-item"><a href="#join">Join us</a></li>
+                    </ul>
+                    <div class="nav-buttons">
+                        <button class="want">FREE TRIAL</button>
+                    </div>   
+                </nav>
             </section>
-            <nav>
-                <ul>
-                   
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#articles">Articles</a></li>
-                    <li><a href="#clients">Clients</a></li>
-                    <li><a href="#contacts">Contacts</a></li>
-                    <li><a href="#join">Join us</a></li>
-                </ul>
-                <button>FREE TRIAL</button>
-            </nav>
         </header>
         <main>
-            <section id="home">
-                 <div>
-                   <img src="images/nkar1.svg " alt="logo"> 
-                <h1> This is simply a smarter way to</h1>
-                <h1> make your legal online</h1>
-                <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
-                <p> sed diam nonummy nibh euismod tincidunt ut laoreet dolore.</p>
-                <h1>SSL secured connection</h1>
-                
+            <section id="home" class="section-content">
+                <article class="article-home">
+                    <span class="img-home">
+                     <img src="images/nkar1.svg " alt="logo">
+                    </span> 
+                    <div class="item-home">
+                        <span class="special-offer-list-item">
+                            This is simply a smarter way to make your legal online
+                        </span>
+                       <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+                       <p> sed diam nonummy nibh euismod tincidunt ut laoreet dolore.</p>
+                       <button class="link-list"  > FREE 30 DAY TRIAL </button> 
+                       <p>SSL secured connection</p>
+                    </div>
+                </article>
+            </section>
+            <section id="services" class="section-content">
+                <div class="services">
+                    <ul class="special">
+                       <li class="services1"><h2>Services</h2></li>
+                       <li class="services2"><p>Lionic guides you on making decisions for all aspects of your end-of-life plans.</p></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="your-services">
+                         <li  class="special-offer ">
+                            <img  class="img-img" src="images/nkar2.svg "alt="Your Legacy">
+                                 <h3>   
+                                    <p>
+                                        Your Legacy
+                                    </p>
+                                </h3>
+                                <p class="special-offer-p">
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                                </p>
+                         </li>
+                         <li  class="special-offer">
+                            <img  class="img-img" src="images/nkar3.svg"alt="Your Health">
+                         <h3>
+                             <p>
+                                 Your Health
+                             </p>
+                          </h3>
+                         <p class="special-offer-p">
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                           </p>
+                          </li>
+                         <li  class="special-offer">
+                            <img class="img-img" src="images/nkar4.svg"alt="Funeral & Memorial">
+                         <h3>
+                             <p>
+                                   Funeral & Memorial
+                             </p>
+                         </h3>
+                         <p class="special-offer-p">
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                           </p>
+                           </li>
+                           <li  class="special-offer">
+                            <img class="img-img"  src="images/nkar5.svg" alt="Legal & Financial" >
+                          <h3>
+                               <p>
+                                   Legal & Financial
+                              </p>
+                          </h3>
+                         <p class="special-offer-p">
+                              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                         </p>
+                         </li>
+                    </ul>
                 </div>
             </section>
-            <section id="services"><h2>Services</h2>
-                <p>Lionic guides you on making decisions for all aspects of your end-of-life plans.
-                </p>
+            <section id="articles" class="section-content">
+                <hr class="gic" style="border: none; border-top: 1px solid #DADADA;">
+                <h2 class="section-content-a">Articles</h2>
                 <ul>
-                    <img src="images/nkar2.svg "alt="Your Legacy">
-                    <li>
-                        <h3>   
-                            <p>
-                                Your Legacy
-                            </p>
-                        </h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-                        </p>
-                    </li>
-                     <img src="images/nkar3.svg"alt="Your Health">
-                    <li>
-                        <h3>
-                            <p>
-                                Your Health
-                            </p>
-                        </h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-                        </p>
-                    </li>
-                    <img src="images/nkar4.svg"alt="Funeral & Memorial">
-                    <li>
-                        <h3>
-                            <p>
-                                Funeral & Memorial
-                            </p>
-                        </h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-                        </p>
-                    </li>
-                    <img src="images/nkar5.svg" alt="Legal & Financial" >
-                    <li>
-                        <h3>
-                            <p>
-                                Legal & Financial
-                            </p>
-                        </h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-                        </p>
-                    </li>
+                    <li class="section-content-li"><img src="images/nkar6.svg" alt="Jurisdiction"></li>
+                    <li class="section-content-li"><img src="images/nkar8.svg" alt="Consulting"></li>
+                    <li class="section-content-li"><img src="images/nkar7.svg" alt="Rights and obligations"></li>
+                    <li class="section-content-li"><img src="images/nkar9.svg" alt="Contractors"></li>
                 </ul>
             </section>
-            <section id="articles"><h2>Articles</h2>
-                <ul>
-                    <img src="images/nkar6.svg" alt="Jurisdiction">
-                    <img src="images/nkar8.svg" alt="Consulting">
-                   <img src="images/nkar7.svg" alt="Rights and obligations">
-                   <img src="images/nkar9.svg" alt="Contractors">
-                </ul>
-                </section>
-                <section id="clients"><h2>Clients</h2>
-                <li>
-                    <p>
-                        Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat,
-                     vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim 
-                        qui blandit odio dignissim qui blandit molestie consequat.
-                    </p>
-                    <img src="images/nkar10.svg" alt=" John Armstrong">
-                    <h3>
-                        John Armstrong
-                    </h3>
-                    <p>Customer</p>
-                </li>
-                <li>
-                    <p>
-                       Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat,
-                     vel illum dolore eu feugiat nulla facilisis at vero eros et
-                       accumsan et iusto odio dignissim qui blandit odio dignissim qui blandit molestie consequat.
-                    </p>
-                    <h3>
-                        Elizabeth Martin
-                    </h3>
-                    <p>Customer</p>
-                </li>
-                <li>
-                    <p>
-                        Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat,
-                     vel illum dolore eu feugiat nulla facilisis
-                         at vero eros et accumsan et iusto odio dignissim qui blandit odio dignissim qui blandit molestie consequat.
-                    </p>
-                    <h3>
-                        Robin Soutby
-                    </h3>
-                    <p>Customer</p>
-                </li>
-             </ul>
+            <section id="clients" class="section-content">
+                 <div class="content">
+                    <hr class="gic" style="border: none; border-top: 1px solid #DADADA;">
+                    <h2 class="content-title-home">Clients</h2> 
+                    <ul class="content-ul"> 
+                       <li class="content-li-home">
+                            <p class="content-text">
+                                Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat,
+                                vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim 
+                                qui blandit odio dignissim qui blandit molestie consequat.
+                            </p>
+                            <div class="content-div">
+                                <img class="content-img" src="images/nkar10.svg" alt="John Armstrong">
+                                <div>
+                                    <h3 class="content-title">John Armstrong</h3>
+                                </div>
+                                <div>
+                                    <p class="content-text-title">Customer</p>
+                                </div>
+                             </div>
+                        </li>
+                        <li class="content-li-home">
+                            <p class="content-text">
+                                Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat,
+                                 vel illum dolore eu feugiat nulla facilisis at vero eros et
+                                   accumsan et iusto odio dignissim qui blandit odio dignissim qui blandit molestie consequat.
+                            </p>
+                            <div class="content-div">
+                                  <img class="content-img" src="images/nkar11.svg" alt=" Elizabeth Martin">
+                                <div >
+                                     <h3 class="content-title">
+                                         Elizabeth Martin
+                                      </h3>
+                                     <p class="content-text-title">Customer</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="content-li-home">
+                            <p class="content-text">
+                                 Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat,
+                                 vel illum dolore eu feugiat nulla facilisis
+                                 at vero eros et accumsan et iusto odio dignissim qui blandit odio dignissim qui blandit molestie consequat.
+                            </p>
+                            <div class="content-div">
+                                <img class="content-img"  src="images/nkar12.svg" alt="Robin Soutby">
+                                <div>
+                                    <h3 class="content-title">
+                                          Robin Soutby
+                                    </h3>
+                                    <p class="content-text-title">Customer</p>
+                                </div>
+                            </div>
+                       </li> 
+                    </ul>
+                </div>
             </section>
-            <section id="contacts"><h2>Contacts</h2>
-                <ul>
-                    <li>
-                        <h3>
+            <section id="contacts" class="section-content">
+                <hr class="gic" style="border: none; border-top: 1px solid #DADADA;">
+                <h2 class="section-title-home">Contacts</h2>
+                <div>
+                    <ul class="section-ul">
+                        <li class="section-li">
+                            <img class="section-img" src="images/nkar13.svg" alt=" Visit Us">
+                            <h3 class="section-title-li">
                             Visit Us
-                        </h3>
-                        <p>
-                            Duis autem vel eum iriure dolor in hendrerit in vulputate velit.
-                         </p>
-                    </li>
-                    <li>
-                        <h3>
-                            Call Us
-                        </h3>
-                        <p>
-                            +7 (987) 654-32-10
-                            +7 (123) 456-78-90
-                        </p>
-                    </li>
-                    <li>
-                        <h3>
+                            </h3>
+                            <div  class="section-text">
+                                <p>
+                                    Duis autem vel eum iriure dolor 
+                                </p>
+                                <p>
+                                    in hendrerit in vulputate velit.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="section-li"> 
+                         <img class="section-img" src="images/nkar14.svg" alt="Call Us"> 
+                            <h3 class="section-title-li">
+                                  Call Us
+                            </h3>
+                            <div  class="section-text">
+                                <a href="#" >
+                                   +7 (987) 654-32-10
+                                </a>
+                                <p>
+                                    <a href="#" >
+                                        +7 (123) 456-78-90
+                                    </a>
+                                </p>    
+                            </div>
+                        </li>
+                        <li class="section-li">
+                            <img class="section-img" src="images/nkar15.svg" alt="Email Us">
+                            <h3 class="section-title-li">
                             Email Us
-                        </h3>
-                        <p>
-                            example@example.com
-                            support@example.com
-                        </p>
-                    </li>
-                </ul>
+                            </h3>
+                            <div  class="section-text">
+                                <p>
+                                    <a href="#">
+                                        example@example.com
+                                    </a>
+                                </p>    
+                                <p>
+                                    <a href="#">
+                                        support@example.com
+                                    </a>
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </section>
-            <section id="join"><h2>Join us</h2>
-               <p>
-                 Take control of your paid subscriptions today!
-               </p> 
-               <p>GET STARTED</p>
+            <section id="join" class="join-section" aria-labelledby="join-heading">
+               <hr class="gic" style="border: none; border-top: 1px solid #DADADA;">
+               <h2 id="join-heading" class="join-heading">Join us</h2>
+               <p class="join-description">Take control of your paid subscriptions today!</p>
+                <form class="join-form" action="#" method="POST">
+                    <!-- <label for="name" class="visually-hidden">Name</label> -->
+                    <input type="text" id="name" name="name" placeholder="Name" required class="name" />
+                    <!-- <label for="email" class="visually-hidden">Email</label> -->
+                    <input type="email" id="email" name="email" placeholder="Email" required class="email" />
+                    <!-- <label for="phone" class="visually-hidden">Phone</label> -->
+                    <input type="tel" id="phone" name="phone" placeholder="Phone" required class="phone" />
+                    <!-- <label for="country" class="visually-hidden"> Country </label> -->
+                    <select id="country" name="country" required class="country">
+                        <option value="" selected hidden>Country</option>
+                        <option value="uk">United Kingdom</option>
+                        <option value="us">United States</option>
+                        <option value="fr">France</option>
+                        <option value="de">Germany</option>
+                        <option value="es">Spain</option>
+                        <option value="ee">Estonia</option>
+                    </select>
+                    <!-- <label for="comment" class="visually-hidden">Comment</label> -->
+                    <textarea id="comment" name="comment" placeholder="Comment" rows="4" class="comment"></textarea>
+                    <button type="submit" class="button button-primary submit" >Get Started</button>
+                    <p class="terms-agree checkbox">
+                        <input type="checkbox" id="agree" name="agree" required />
+                        <label for="agree" > I agree with <a href="#" class="join-a">user agreement</a></label>
+                    </p>
+                </form>
             </section>
         </main>
-        <footer>
-            <div>
-                <p>Copyright ©2017. All Right Reserved</p>
-                <p>About Us</p>
-                <p>Contact Us</p>
-                <p>Privacy Policy</p>
-                <p>Terms Condition</p>
-            </div>
-            <img src="images/logo.svg" alt="Lionic logo">
-            <ul>
-                <li>
+        <footer class="footer">
+             <hr class="footer-gic" style="border: none; border-top: 1px solid #DADADA;">
+            <ul class="footer-ul">
+                <li class="footer-li">
+                    <img src="images/logo.svg" alt="Lionic logo">
+                </li>
+                <li class="footer-li copyright">
+                    <p>Copyright ©2017. All Right Reserved</p>
+                </li>
+                <li class="footer-li"> 
+                    <p>About Us</p>
+                </li>
+                <li class="footer-li">
+                    <p>Contact Us</p>
+                </li>
+                <li class="footer-li">
+                    <p>Privacy Policy</p>
+                </li>
+                <li class="footer-li">
+                    <p>Terms Condition</p>
+                </li>
+                <li class="footer-li">
                     <img src="images/twitter logo.svg" alt="twitter logo">
                 </li>
-                <li>
+                <li class="footer-li">
                     <img src="images/linkedin logo.svg" alt="linkedin logo">
                 </li>
-                <li>
+                <li class="footer-li">
                     <img src="images/namak.svg" alt="vector"> 
-                    <img src="images/nomak 2.svg" alt="vector">
                 </li>
             </ul>
         </footer>
